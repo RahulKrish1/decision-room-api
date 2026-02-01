@@ -1,0 +1,80 @@
+# --------------------
+# Python
+# --------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# --------------------
+# Environment / secrets
+# --------------------
+.env
+.env.*
+*.env
+
+# --------------------
+# Testing / tooling
+# --------------------
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# --------------------
+# IDEs / editors
+# --------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --------------------
+# OS files
+# --------------------
+.DS_Store
+Thumbs.db
+
+# --------------------
+# Logs
+# --------------------
+*.log
+
+# --------------------
+# Databases / local data
+# --------------------
+*.sqlite3
+*.db
+*.sqlite
+
+# --------------------
+# Docker
+# --------------------
+# Local volumes or overrides only
+docker-data/
+docker-volumes/
+
+# --------------------
+# Alembic
+# --------------------
+# Keep alembic versions, ignore bytecode
+alembic/versions/__pycache__/
+
+# --------------------
+# Node (if you ever add frontend)
+# --------------------
+node_modules/
+
+# --------------------
+# Build artifacts
+# --------------------
+dist/
+build/
+*.egg-info/
