@@ -42,13 +42,12 @@ jobs:
           pip install pytest ruff
 
       - name: Run migrations
-        run: |
-          PYTHONPATH=. alembic upgrade head
+        run: PYTHONPATH=. alembic upgrade head
 
       - name: Lint
         run: |
           ruff check .
 
-      - name: Tests
-        run: |
-          PYTHONPATH=. pytest -q
+      - name: Run tests
+        run: PYTHONPATH=. pytest -q
+
